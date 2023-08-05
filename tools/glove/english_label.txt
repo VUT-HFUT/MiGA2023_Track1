@@ -1,0 +1,32 @@
+0 turtle neck
+1 deep breath
+2 touch hat
+3 touch face
+4 touch forehead
+5 cover face
+6 rub eyes
+7 touch other face part
+8 touch ears
+9 bite nails
+10 touch chin
+11 touch neck
+12 play hair
+13 adjust tie
+14 touch chest
+15 scratch back
+16 fold arm
+17 tidy sleeve
+18 put arm back
+19 move torso
+20 sit straight
+21 scratch arm
+22 rub hand
+23 cross finger
+24 minaret hand
+25 play things
+26 withdraw arms
+27 head up
+28 bit lip
+29 arm akimbo
+30 shake shoulder
+31 illustrative
