@@ -14,11 +14,11 @@ pip install -e .
 ## Data preparation
 1. Please first download the skeleton modality of the iMiGUE dataset via Codalab platform by participating the [MiGA competition](https://codalab.lisn.upsaclay.fr/competitions/11758). 
 2. Convert the raw skeleton data to the [PYSKL data format](https://github.com/kennymckormick/pyskl/blob/main/tools/data/README.md). You can refer to `./tools/readlabel.py`. 
-**The pre-procesed skeleton data is available [here](https://drive.google.com/file/d/1CkyLv4JBwvfjvN0QWxQi1sQBpZW6zA90/view?usp=sharing).**
+**The pre-processed skeleton data is available [here](https://drive.google.com/file/d/1CkyLv4JBwvfjvN0QWxQi1sQBpZW6zA90/view?usp=sharing).**
 3. By the way, we separate the validation set from the training set. 
 
 ## Training & Testing & Ensemble
-You can use following commands for training and testing. 
+You can use the following commands for training and testing. 
 ```bash
 # training
 ## Note that this process will consume 8 hours with two NVIDIA 3090 for each model.
@@ -41,7 +41,7 @@ python ensemble.py
 ```
 The generated `Sumission.zip` is the final result.
 
-**We provide the pretrained model, you can download it from [here](https://drive.google.com/file/d/1Su7k43LEsWqGQ3ot6E47VJ8mEl4ZMbpT/view?usp=sharing).** 
+**We provide the pre-trained model, you can download it from [here](https://drive.google.com/file/d/1asLgHHqsWqOfrbCYFqHBsVx3Qi9T1E3U/view?usp=sharing).** 
 
 ## Citation
 If you use this code in your research, please consider citing:
@@ -57,4 +57,4 @@ If you use this code in your research, please consider citing:
 This code began with [PYSKL toolbox](https://github.com/kennymckormick/pyskl/tree/main). We thank the developers for doing most of the heavy-lifting.
 
 ## Contact
-For any questoions, feel free to contact: kunli.hfut@gmail.com
+For any questions, feel free to contact: kunli.hfut@gmail.com
